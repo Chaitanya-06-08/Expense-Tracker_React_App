@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+.form-container {
+  max-width: 800px;
+  margin: 10px auto;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* gap: 2em; */
+  background-color: rgb(181, 71, 255);
+  /* align-items:center; */
+  /* justify-content: center; */
+  border-radius: 12px;
+  padding: 10px;
+}
+.expense-description {
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 50%; */
+  justify-content: flex-start;
+  padding: 2px 50px;
+}
+.form-item {
+  width: 300px;
+  margin: 0 10px;
+  /* padding: 5px; */
+}
+.Buttons{
+  display: flex;
+  justify-content: flex-end;
+}
+
+label {
+  font-weight: bolder;
+  font-size: x-large;
+  color: white;
+}
+
+button {
+  background-color: blueviolet;
+  border: solid blueviolet 2px;
+  border-radius: 10px;
+  color: white;
+  width: 20%;
+  cursor: pointer;
+  height: 35px;
+  margin: 5px 0;
+  font-weight: bolder;
+  box-shadow: 1px 1px  white ;
+}
+input{
+    width: 15rem;
+    height: 1.75rem;
+    /* margin: 10px; */
+    border: solid whitesmoke 2px;
+    border-radius: 5px;
+}

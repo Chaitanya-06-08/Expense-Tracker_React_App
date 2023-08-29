@@ -1,0 +1,19 @@
+.date{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin: 5px 0;
+    border: solid white 1px;
+    border-radius: 10px;
+    text-align: center;
+    width: 5rem;
+    padding: 5px;
+    /* align-items:; */
+
+}
+.date-item{
+    margin: 0;
+}

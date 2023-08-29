@@ -1,0 +1,8 @@
+.chart-wrapper {
+  max-width: 1000px;
+  margin: 10px auto;
+  background-color: rgb(223, 189, 255);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
